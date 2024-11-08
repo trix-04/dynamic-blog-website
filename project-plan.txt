@@ -1,0 +1,2 @@
+To do:
+- follow the step-by-step instructions listed on Notion page for CPAN 134 "Assignment 3: Build a Dynamic Blog Website Using Git and GitHub"
