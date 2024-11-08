@@ -14,48 +14,51 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 16px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 32px;
 }
 
-nav ul {
+nav {
+    margin-top: 10px;
+}
+
+.nav-list {
     list-style: none;
-    padding: 0;
-    display: flex;
+    display: flex; 
     justify-content: center;
-    gap: 1rem;
+    gap: 20px;
 }
 
-nav ul li a {
+.nav-list li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
-nav ul li a:hover {
+.nav-list li a:hover {
     text-decoration: underline;
 }
 
+
 main {
     max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+    margin: 32px auto;
+    padding: 0 16px;
 }
 
 .blog-posts {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .post {
     background-color: #fff;
-    padding: 1.5rem;
+    padding: 24px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
@@ -66,9 +69,9 @@ main {
 }
 
 .post h2 {
-    font-size: 1.8rem;
+    font-size: 28.8px;
     color: #333;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .post h2 a {
@@ -82,7 +85,7 @@ main {
 
 .post-summary {
     color: #666;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .read-more {
@@ -95,14 +98,59 @@ main {
     text-decoration: underline;
 }
 
+
+.new-post-container {
+    max-width: 600px;
+    margin: 32px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.new-post-container label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.new-post-container input[type="text"],
+.new-post-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.new-post-container textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.new-post-container input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.new-post-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-}
-
-footer p {
-    font-size: 0.9rem;
+    padding: 16px;
+    margin-top: 20px;
+    font-size: 14.4px;
 }
