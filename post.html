@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Post Details</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="post-container">
+            <h2 id="postTitle"></h2>
+            <p id="postContent"></p>
+            <button id="editButton">Edit Post</button>
+            <button id="deleteButton">Delete Post</button>
+
+            <form id="editForm" style="display: none;">
+                <label for="editTitle">Edit Title:</label>
+                <input type="text" id="editTitle" required>
+
+                <label for="editContent">Edit Content:</label>
+                <textarea id="editContent" required></textarea>
+
+                <button type="button" id="saveButton">Save Changes</button>
+                <button type="button" id="cancelButton">Cancel</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</html>
