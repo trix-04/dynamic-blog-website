@@ -127,7 +127,7 @@ document.getElementById("saveButton").addEventListener("click", function () {
     document.getElementById("editButton").style.display = "block";
 });
 
-/
+
 document.getElementById("deleteButton").addEventListener("click", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const postId = urlParams.get("id");
